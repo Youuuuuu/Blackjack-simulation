@@ -1,0 +1,19 @@
+Dealers card:  6
+Player's hand:  10 - 10
+Player choose to hit and end up with :  10
+Dealer's both cards were:  6
+Dealer's handValue after required hitting:  1
+Winnings:  -1
+Dealers card:  6
+Player's hand:  10 - 10
+Player choose to hit and end up with :  10
+Dealer's both cards were:  10
+Dealer's handValue after required hitting:  function (m = 1) 
+sample(deck, m, replace = TRUE)
+Winnings:  -1
+Dealers card:  6
+Player's hand:  10 - 10
+Player choose to hit and end up with :  10
+Dealer's both cards were:  6
+Dealer's handValue after required hitting:  c(6, 10, 8)
+Winnings:  -1

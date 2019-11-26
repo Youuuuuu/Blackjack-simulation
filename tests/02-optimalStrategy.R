@@ -1,0 +1,18 @@
+# Test optimal strategy
+
+context("Optimal Strategy")
+expect_equal(strategy_optimal(c(4,1,6),3), "S")
+expect_equal(strategy_optimal(c(3,2,6),3), "H")
+expect_equal(strategy_optimal(c(5,6),3), "D")
+expect_equal(strategy_optimal(c(3,2,6),1), "H")
+expect_equal(strategy_optimal(c(5,6),1), "D")
+expect_equal(strategy_optimal(c(6,1,5,1),7), "H")
+expect_equal(strategy_optimal(c(6,1,5,1),6), "H")
+expect_equal(strategy_optimal(c(1,1),1), "SP")
+expect_equal(strategy_optimal(c(9,9),7), "S")
+expect_equal(strategy_optimal(c(6,6),7), "H")
+expect_equal(strategy_optimal(c(3,3),7), "SP")
+expect_equal(strategy_optimal(c(7,1),5), "D")
+expect_equal(strategy_optimal(c(7,1),7), "S")
+expect_equal(strategy_optimal(c(2,1),9), "H")
+expect_equal(strategy_optimal(c(2,1),5), "D")
